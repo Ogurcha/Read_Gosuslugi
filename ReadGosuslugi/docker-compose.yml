@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  api-gos:
+    build: .
+    environment:
+      GOSUSLUGI_URI: "https://www.gosuslugi.ru/api/pay/public/v1/paygate/bill/create?interfaceTypeCode=BETA_NOAUTH"
+      LOGGER_TEXT_FILE_PATH: "logs/logs.txt"
+      LOGGER_JSON_FILE_PATH: "logs/logs.json"
+    ports:
+      - "8000:80"

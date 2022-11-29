@@ -1,0 +1,5 @@
+2022-11-21 19:56:28.773 +03:00 ReadGosuslugi [INF] Now listening on: https://[::]:443
+2022-11-21 19:56:28.872 +03:00 ReadGosuslugi [INF] Now listening on: http://[::]:80
+2022-11-21 19:56:28.876 +03:00 ReadGosuslugi [INF] Application started. Press Ctrl+C to shut down.
+2022-11-21 19:56:28.881 +03:00 ReadGosuslugi [INF] Hosting environment: Development
+2022-11-21 19:56:28.885 +03:00 ReadGosuslugi [INF] Content root path: C:\app

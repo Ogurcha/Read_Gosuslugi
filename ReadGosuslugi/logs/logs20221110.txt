@@ -1,0 +1,160 @@
+2022-11-10 12:03:09.796 +03:00 ReadGosuslugi [INF] Now listening on: https://[::]:443
+2022-11-10 12:03:09.889 +03:00 ReadGosuslugi [INF] Now listening on: http://[::]:80
+2022-11-10 12:03:09.894 +03:00 ReadGosuslugi [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 12:03:09.898 +03:00 ReadGosuslugi [INF] Hosting environment: Development
+2022-11-10 12:03:09.902 +03:00 ReadGosuslugi [INF] Content root path: C:\app
+2022-11-10 12:04:24.049 +03:00 ReadGosuslugi [INF] Starting fines by inn request
+2022-11-10 12:04:24.340 +03:00 ReadGosuslugi [INF] Start processing HTTP request POST "https://www.gosuslugi.ru/api/pay/public/v1/paygate/bill/create?interfaceTypeCode=BETA_NOAUTH"
+2022-11-10 12:04:24.351 +03:00 ReadGosuslugi [INF] Sending HTTP request POST "https://www.gosuslugi.ru/api/pay/public/v1/paygate/bill/create?interfaceTypeCode=BETA_NOAUTH"
+2022-11-10 12:04:25.112 +03:00 ReadGosuslugi [INF] Received HTTP response after 751.2251ms - "OK"
+2022-11-10 12:04:25.119 +03:00 ReadGosuslugi [INF] End processing HTTP request after 793.0535ms - "OK"
+2022-11-10 12:04:26.470 +03:00 ReadGosuslugi [INF] Starting fines by inn request
+2022-11-10 12:04:26.476 +03:00 ReadGosuslugi [INF] Start processing HTTP request POST "https://www.gosuslugi.ru/api/pay/public/v1/paygate/bill/create?interfaceTypeCode=BETA_NOAUTH"
+2022-11-10 12:04:26.480 +03:00 ReadGosuslugi [INF] Sending HTTP request POST "https://www.gosuslugi.ru/api/pay/public/v1/paygate/bill/create?interfaceTypeCode=BETA_NOAUTH"
+2022-11-10 12:04:26.759 +03:00 ReadGosuslugi [INF] Received HTTP response after 278.7399ms - "OK"
+2022-11-10 12:04:26.764 +03:00 ReadGosuslugi [INF] End processing HTTP request after 288.2213ms - "OK"
+2022-11-10 12:41:48.449 +03:00 ReadGosuslugi [INF] Now listening on: https://[::]:443
+2022-11-10 12:41:48.541 +03:00 ReadGosuslugi [INF] Now listening on: http://[::]:80
+2022-11-10 12:41:48.547 +03:00 ReadGosuslugi [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 12:41:48.552 +03:00 ReadGosuslugi [INF] Hosting environment: Development
+2022-11-10 12:41:48.556 +03:00 ReadGosuslugi [INF] Content root path: C:\app
+2022-11-10 12:41:50.264 +03:00 ReadGosuslugi [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/LogExport/GetLogs" for actions - ReadGosuslugi.Controllers.LogExportController.GetJudicalDebtsByPassport (ReadGosuslugi),ReadGosuslugi.Controllers.LogExportController.GetJudicalDebtsByPassport (ReadGosuslugi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-10 12:46:28.539 +03:00 ReadGosuslugi [INF] Now listening on: https://[::]:443
+2022-11-10 12:46:28.616 +03:00 ReadGosuslugi [INF] Now listening on: http://[::]:80
+2022-11-10 12:46:28.620 +03:00 ReadGosuslugi [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 12:46:28.625 +03:00 ReadGosuslugi [INF] Hosting environment: Development
+2022-11-10 12:46:28.629 +03:00 ReadGosuslugi [INF] Content root path: C:\app
+2022-11-10 12:46:30.243 +03:00 ReadGosuslugi [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/LogExport/GetLogs" for actions - ReadGosuslugi.Controllers.LogExportController.GetJudicalDebtsByPassport (ReadGosuslugi),ReadGosuslugi.Controllers.LogExportController.GetJudicalDebtsByPassport (ReadGosuslugi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-10 12:47:38.073 +03:00 ReadGosuslugi [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/LogExport/GetLogs" for actions - ReadGosuslugi.Controllers.LogExportController.GetJudicalDebtsByPassport (ReadGosuslugi),ReadGosuslugi.Controllers.LogExportController.GetJudicalDebtsByPassport (ReadGosuslugi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-10 12:50:52.128 +03:00 ReadGosuslugi [INF] Now listening on: https://[::]:443
+2022-11-10 12:50:52.197 +03:00 ReadGosuslugi [INF] Now listening on: http://[::]:80
+2022-11-10 12:50:52.201 +03:00 ReadGosuslugi [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 12:50:52.227 +03:00 ReadGosuslugi [INF] Hosting environment: Development
+2022-11-10 12:50:52.231 +03:00 ReadGosuslugi [INF] Content root path: C:\app
+2022-11-10 13:05:23.089 +03:00 ReadGosuslugi [INF] Now listening on: https://[::]:443
+2022-11-10 13:05:23.163 +03:00 ReadGosuslugi [INF] Now listening on: http://[::]:80
+2022-11-10 13:05:23.167 +03:00 ReadGosuslugi [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 13:05:23.171 +03:00 ReadGosuslugi [INF] Hosting environment: Development
+2022-11-10 13:05:23.175 +03:00 ReadGosuslugi [INF] Content root path: C:\app
+2022-11-10 13:05:37.013 +03:00 ReadGosuslugi [ERR] An unhandled exception has occurred while executing the request.
+System.IO.IOException: The process cannot access the file 'C:\app\logs\logs20221110.json' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllTextAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at ReadGosuslugi.AppLogic.LogExportManager.GetLogDump() in C:\Users\Igor\source\repos\gosuslugi\ReadGosuslugi\AppLogic\LogExportManager.cs:line 28
+   at ReadGosuslugi.Controllers.LogExportController.GetJudicalDebtsByPassport() in C:\Users\Igor\source\repos\gosuslugi\ReadGosuslugi\Controllers\LogExportController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-10 13:05:49.093 +03:00 ReadGosuslugi [ERR] An unhandled exception has occurred while executing the request.
+System.IO.IOException: The process cannot access the file 'C:\app\logs\logs20221110.json' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllTextAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at ReadGosuslugi.AppLogic.LogExportManager.GetLogDump() in C:\Users\Igor\source\repos\gosuslugi\ReadGosuslugi\AppLogic\LogExportManager.cs:line 28
+   at ReadGosuslugi.Controllers.LogExportController.GetJudicalDebtsByPassport() in C:\Users\Igor\source\repos\gosuslugi\ReadGosuslugi\Controllers\LogExportController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-10 13:08:42.721 +03:00 ReadGosuslugi [INF] Now listening on: https://[::]:443
+2022-11-10 13:08:42.787 +03:00 ReadGosuslugi [INF] Now listening on: http://[::]:80
+2022-11-10 13:08:42.791 +03:00 ReadGosuslugi [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 13:08:42.795 +03:00 ReadGosuslugi [INF] Hosting environment: Development
+2022-11-10 13:08:42.797 +03:00 ReadGosuslugi [INF] Content root path: C:\app
+2022-11-10 13:08:57.462 +03:00 ReadGosuslugi [ERR] An unhandled exception has occurred while executing the request.
+System.IO.IOException: The process cannot access the file 'C:\app\logs\logs20221110.json' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllTextAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at ReadGosuslugi.AppLogic.LogExportManager.GetLogDump() in C:\Users\Igor\source\repos\gosuslugi\ReadGosuslugi\AppLogic\LogExportManager.cs:line 28
+   at ReadGosuslugi.Controllers.LogExportController.GetJudicalDebtsByPassport() in C:\Users\Igor\source\repos\gosuslugi\ReadGosuslugi\Controllers\LogExportController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-10 13:19:30.246 +03:00 ReadGosuslugi [INF] Now listening on: https://[::]:443
+2022-11-10 13:19:30.338 +03:00 ReadGosuslugi [INF] Now listening on: http://[::]:80
+2022-11-10 13:19:30.344 +03:00 ReadGosuslugi [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 13:19:30.349 +03:00 ReadGosuslugi [INF] Hosting environment: Development
+2022-11-10 13:19:30.353 +03:00 ReadGosuslugi [INF] Content root path: C:\app
+2022-11-10 13:52:39.976 +03:00 ReadGosuslugi [INF] Now listening on: https://[::]:443
+2022-11-10 13:52:40.043 +03:00 ReadGosuslugi [INF] Now listening on: http://[::]:80
+2022-11-10 13:52:40.047 +03:00 ReadGosuslugi [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 13:52:40.050 +03:00 ReadGosuslugi [INF] Hosting environment: Development
+2022-11-10 13:52:40.053 +03:00 ReadGosuslugi [INF] Content root path: C:\app
+2022-11-10 13:53:14.775 +03:00 ReadGosuslugi [INF] Starting judical debts by snils request
+2022-11-10 13:53:15.037 +03:00 ReadGosuslugi [INF] Start processing HTTP request POST "https://www.gosuslugi.ru/api/pay/public/v1/paygate/bill/create?interfaceTypeCode=BETA_NOAUTH"
+2022-11-10 13:53:15.044 +03:00 ReadGosuslugi [INF] Sending HTTP request POST "https://www.gosuslugi.ru/api/pay/public/v1/paygate/bill/create?interfaceTypeCode=BETA_NOAUTH"
+2022-11-10 13:53:17.387 +03:00 ReadGosuslugi [INF] Received HTTP response after 2332.9925ms - "OK"
+2022-11-10 13:53:17.393 +03:00 ReadGosuslugi [INF] End processing HTTP request after 2371.7028ms - "OK"
